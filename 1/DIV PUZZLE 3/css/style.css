@@ -1,0 +1,81 @@
+.header {
+    width: 400px; 
+    height: 100px;
+    background-color: #141f40;
+}
+.header-box {
+    width: 160px;
+    height: 60px;
+    background-color: #ffffff;
+    margin: 20px;
+    float: right;
+}
+.header-item {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin: 10px 0 10px 10px;
+    float: left;
+}
+.main { 
+    width: 400px;
+}
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+.right-box {
+    margin: 40px 60px 40px 40px;
+}
+.right-item {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffffff;
+    margin: 0 0 10px;
+}
+.footer {
+    width: 400px;  
+    height: 100px;
+    background: #d98d30;
+    clear: both;
+}
+
+/* 479pxまで */
+@media screen and (max-width: 479px) {
+    .header, .main, .footer,
+    .left, .right {
+        width: 200px;
+    }
+    .header {
+        height: 200px;
+    }
+    .header-box {
+        width: 60px;
+        height: 160px;
+        margin: 20px 70px;
+    }
+    .header-item {
+        margin: 10px 10px 0 10px;
+    }
+    .left {
+        height: 100px;
+    }
+    .right {
+        height: 210px;
+    }
+    .right-box {
+        margin: 20px 30px;
+    }
+    .right-item {
+        width: 130px;
+    }
+}
