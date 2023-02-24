@@ -1,0 +1,78 @@
+.header {
+    width: 400px; 
+    height: 100px;
+    background-color: #141f40;
+}
+.main { 
+    width: 400px;
+}
+.left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+.right {
+    float: right;
+}
+.right-item-1 {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.right-item-2 {
+    height: 50px;
+    width: 150px;
+    background-color: #dbd400;
+}
+.right-item-3 {
+    height: 100px;
+    width: 150px;
+    background-color: #0093b7;
+}
+.right-item-4 {
+    height: 100px;
+    width: 250px;
+    background-color: #8c2727;
+}
+.footer {
+    height: 100px;
+    width: 400px; 
+    background: #d98d30;
+    clear: both;
+}
+
+/* 767pxまで */
+@media screen and (max-width: 767px) {
+    .header, .main, .footer { 
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .right-item-1 {
+        width: 75px;
+    }
+    .right-item-2, .right-item-3 {
+        width: 125px;
+    }
+    .right-item-4 {
+        width: 200px;
+    }
+}
+
+/* 479pxまで */
+@media screen and (max-width: 479px) {
+    .main, .header, .footer,
+    .left, .right,
+    .right-item-1, .right-item-2, .right-item-3, .right-item-4 {
+        width: 150px;
+    }
+    .left, .right-item-1 {
+        height: 100px;
+    }
+    .right-item-2 {
+        clear: both;
+    }
+}
